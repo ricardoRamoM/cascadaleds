@@ -1,0 +1,111 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Nov 21 07:45:21 2023
+| Host         : LAPTOP-I24J2GHV running 64-bit major release  (build 9200)
+| Command      : report_drc -file CascadeLED_drc_routed.rpt -pb CascadeLED_drc_routed.pb -rpx CascadeLED_drc_routed.rpx
+| Design       : CascadeLED
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 15
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 15         |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net LEDS_reg[10]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[10]/L3_2/O, cell LEDS_reg[10]/L3_2 (in LEDS_reg[10] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net LEDS_reg[11]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[11]/L3_2/O, cell LEDS_reg[11]/L3_2 (in LEDS_reg[11] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net LEDS_reg[12]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[12]/L3_2/O, cell LEDS_reg[12]/L3_2 (in LEDS_reg[12] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net LEDS_reg[13]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[13]/L3_2/O, cell LEDS_reg[13]/L3_2 (in LEDS_reg[13] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net LEDS_reg[14]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[14]/L3_2/O, cell LEDS_reg[14]/L3_2 (in LEDS_reg[14] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net LEDS_reg[15]_i_1_n_0 is a gated clock net sourced by a combinational pin LEDS_reg[15]_i_1/O, cell LEDS_reg[15]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net LEDS_reg[1]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[1]/L3_2/O, cell LEDS_reg[1]/L3_2 (in LEDS_reg[1] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net LEDS_reg[2]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[2]/L3_2/O, cell LEDS_reg[2]/L3_2 (in LEDS_reg[2] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net LEDS_reg[3]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[3]/L3_2/O, cell LEDS_reg[3]/L3_2 (in LEDS_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net LEDS_reg[4]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[4]/L3_2/O, cell LEDS_reg[4]/L3_2 (in LEDS_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net LEDS_reg[5]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[5]/L3_2/O, cell LEDS_reg[5]/L3_2 (in LEDS_reg[5] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net LEDS_reg[6]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[6]/L3_2/O, cell LEDS_reg[6]/L3_2 (in LEDS_reg[6] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net LEDS_reg[7]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[7]/L3_2/O, cell LEDS_reg[7]/L3_2 (in LEDS_reg[7] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net LEDS_reg[8]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[8]/L3_2/O, cell LEDS_reg[8]/L3_2 (in LEDS_reg[8] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net LEDS_reg[9]/G0 is a gated clock net sourced by a combinational pin LEDS_reg[9]/L3_2/O, cell LEDS_reg[9]/L3_2 (in LEDS_reg[9] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Nov 18 13:56:55 2023
+# Process ID: 22124
+# Current directory: D:/Users/174985/Desktop/cascadaleds
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23496 D:\Users\174985\Desktop\cascadaleds\cascadaleds.xpr
+# Log file: D:/Users/174985/Desktop/cascadaleds/vivado.log
+# Journal file: D:/Users/174985/Desktop/cascadaleds\vivado.jou
+# Running On: PCCN111-03, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 16943 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/174985/Desktop/cascadaleds/cascadaleds.xpr
+update_compile_order -fileset sources_1
